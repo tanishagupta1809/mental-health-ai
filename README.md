@@ -2,7 +2,7 @@
 
 A full-stack MERN (MongoDB, Express, React, Node.js) application for mental health predictions and assessments.
 
-## 🎯 Features
+## Features
 
 - **User Authentication**: Secure register/login with JWT tokens
 - **Mental Health Assessment**: Input stress, anxiety, depression, and sleep metrics
@@ -13,7 +13,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application for mental heal
 - **Responsive Design**: Works on desktop and mobile devices
 - **Data Validation**: Comprehensive validation on frontend and backend
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 mental-health-ai/
@@ -36,7 +36,7 @@ mental-health-ai/
     └── app.py            # Prediction model
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v14+)
@@ -137,7 +137,7 @@ mental-health-ai/
 - `DELETE /api/assessment/:id` - Delete assessment
 - `GET /api/assessment/statistics` - Get statistics
 
-## 🔐 Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 ```
@@ -153,7 +153,7 @@ ML_SERVICE_URL=http://127.0.0.1:5001
 REACT_APP_API_URL=http://localhost:5050/api
 ```
 
-## 📊 Assessment Metrics
+## Assessment Metrics
 
 Each assessment captures:
 - **Sleep Hours** (0-24): Hours of sleep
@@ -166,7 +166,7 @@ Risk classification:
 - **Moderate**: Score 100-200
 - **High**: Score > 200
 
-## 🎨 UI Features
+## UI Features
 
 - **Dashboard**: Overview with stats cards
 - **Charts**: Line chart for trends, bar chart for metrics, pie chart for risk distribution
@@ -194,7 +194,7 @@ Risk classification:
 - Flask 2.x
 - Flask-CORS
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Frontend tests
@@ -204,7 +204,7 @@ cd frontend && npm test
 cd backend && npm test
 ```
 
-## 🚢 Deployment
+## Deployment
 
 ### Deploy Backend (Heroku/Render)
 1. Create account on Heroku/Render
@@ -232,7 +232,7 @@ cd backend && npm test
 - **authRoutes.js**: Authentication endpoints
 - **assessmentRoutes.js**: Assessment CRUD endpoints
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/AmazingFeature`)
@@ -240,14 +240,7 @@ cd backend && npm test
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Support
-
-For support, email support@mentalhealth.ai or create an issue in the repository.
-
----
-
-**Made with ❤️ for mental health awareness**
