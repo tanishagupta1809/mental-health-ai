@@ -122,7 +122,7 @@ mental-health-ai/
    ```
    Service runs on http://localhost:5001
 
-## 📱 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -175,7 +175,7 @@ Risk classification:
 - **Dark Mode**: Toggle for light/dark theme
 - **Responsive Grid**: Adapts to different screen sizes
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React 19.2.4
@@ -218,7 +218,7 @@ cd backend && npm test
 3. Set REACT_APP_API_URL to backend URL
 4. Deploy
 
-## 📝 Project Structure Details
+## Project Structure Details
 
 ### Controllers
 - **authController.js**: Register, login, profile management
